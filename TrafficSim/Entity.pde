@@ -2,13 +2,15 @@ class Entity{
   //Parameters
   float x;
   float y;
-  float size;
+  float len;
+  float wid;
   
   //Constructor
-  Entity(float xInput, float yInput, float s){
+  Entity(float xInput, float yInput, float l, float w){
     this.x = xInput;
     this.y = yInput;
-    this.size = s;
+    this.len = l;
+    this.wid = w;
   }
   
   //Methods
